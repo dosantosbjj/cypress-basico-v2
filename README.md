@@ -20,4 +20,11 @@ Em seguida, quando concluir as dependências e tiver gerado a pasta node modules
 
 Quando abrir a interface do cypress, faça a configuração inicial, selecionando um navegador e rodando a suíte de testes. 
 
+Para avançar na execução dos testes, é possível rodar o cypress de modo headless com o comando:
+`npm run test`
+
+Note que não é aberto o navegador e os resultados são exibidos diretamente no terminal.
+
+**Obs.: Na pasta cypress/videos fica armazenado um vídeo em MP4 do cypress runner em ação, salvando também screenshots quando o teste falha. 
+
 O código fonte dos testes está no diretório 'integration', caso queira consultar. 
