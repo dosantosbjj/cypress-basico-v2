@@ -44,13 +44,13 @@ document.querySelector('button[type="submit"]')
     textareaField.value = ''
     phoneField.value = ''
     productField.selectedIndex = 0
-    helpRadio.checked = true
-    emailCheckbox.checked = false
-    phoneCheckbox.checked = false
-    fileField.value = ''
-    phoneLabelSpan.style.display = 'none'
-    successMessage.style.display = 'block'
-    isPhoneRequired = false
+    // helpRadio.checked = true
+    // emailCheckbox.checked = false
+    // phoneCheckbox.checked = false
+    // fileField.value = ''
+    // phoneLabelSpan.style.display = 'none'
+    // successMessage.style.display = 'block'
+    // isPhoneRequired = false
     scroll(0,0)
     hideMessageAfterTimeout(successMessage)
   }, false)
